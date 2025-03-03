@@ -1,0 +1,6 @@
+# Exclude backup and test files
+backup/*
+test/*
+*_test.*
+*_backup.*
+.DS_Store

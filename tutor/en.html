@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minjung Kim | Technical Communication Tutor </title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --background-color: #f8f9fa;
+            --accent-color: #8b4513;
+            --text-color: #2c3e50;
+            --secondary-text: #4a5568;
+            --border-color: #e2e8f0;
+            --hover-color: #6b3410;
+            --section-bg: #ffffff;
+            --title-color: #1a365d;
+            --accent-light: #f5f5f5;
+            --warm-bg: #fff8f3;
+            --warm-border: #f0e6e0;
+            --warm-text: #2c1810;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Merriweather", Georgia, "Times New Roman", serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 3rem 2rem;
+            background-color: var(--section-bg);
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+        
+        h1, h2 {
+            font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-weight: 600;
+        }
+        
+        h1 {
+            color: var(--title-color);
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+        }
+        
+        header p {
+            font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 1.2rem;
+            color: var(--secondary-text);
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+            line-height: 1.6;
+        }
+        
+        h2 {
+            color: var(--title-color);
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--section-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+        
+        .container:first-of-type {
+            background-color: var(--warm-bg);
+            border: 1px solid var(--warm-border);
+        }
+        
+        .container:first-of-type p {
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--warm-text);
+            margin-bottom: 1.8rem;
+            font-weight: 400;
+        }
+        
+        .container:first-of-type p:first-child {
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--warm-text);
+            margin-bottom: 2rem;
+        }
+        
+        .language-switch {
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+        
+        .language-switch:hover {
+            background-color: var(--hover-color);
+            transform: translateY(-2px);
+        }
+        
+        ul {
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.8rem;
+            color: var(--text-color);
+        }
+        
+        li:before {
+            display: none;
+        }
+        
+        .email {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            background-color: var(--accent-light);
+        }
+        
+        .email:hover {
+            color: var(--hover-color);
+            background-color: var(--border-color);
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .container {
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Technical Communication Tutoring</h1>
+        <p>Communication skills that do not match the excellence of your technical skills may cause your research to be undervalued​​​​​​​​​​​​​​​</p>
+        <a href="../index.html" class="language-switch">About Me</a>
+    </header>
+
+    <main>
+        <section class="container">
+            <p>
+                My STEM professional friends sometimes share their concerns about research-related writing and presentations with me. 
+                Despite their outstanding technical abilities, they find that their writing and presentations don't always yield the expected results. 
+            </p>
+
+            <p>
+                I've accumulated extensive writing and presentation experience in both academic and industrial settings, 
+                engaging with people from diverse backgrounds. 
+                I've helped resolve my friends' concerns by sharing the expertise I've gained through these experiences. 
+            </p>
+            
+            <p>
+                Fortunately, I've always received positive reviews, which has given me the confidence to cautiously begin offering this service, 
+                hoping that it might be helpful to others experiencing similar difficulties.
+            </p>
+            
+            <p>
+                Currently, this is still in a preliminary testing phase, and I'm providing it at no cost for now, 
+                as I also value the opportunity to learn about different research areas through our interactions.
+                I would deeply appreciate any honest feedback about the service that you might be willing to share.
+            </p>
+            
+        </section>
+
+        <section class="container">
+            <h2>Tutoring Experience Areas</h2>
+            <p>
+                <ul>
+                    <li>Research presentations for academic job interview</li>
+                    <li>Research proposal</li>
+                    <li>Cover letters and CV for academia and industry</li>
+                    <li>Fellowship recommendation letter</li>
+                </ul>
+            </p>
+            
+            <h2>Services Provided</h2>
+            <p>
+                <ul>
+                    <li>Feedback-based tutoring with flexible format</li>
+                    <li>From brief writing guides to detailed presentation coaching across multiple sessions</li>
+                    <li>Communication in English and Korean</li>
+                </ul>
+            </p>
+            
+            <h2>Services NOT Provided</h2>
+            <p>
+                <ul>
+                    <li>Grammar correction (I'm not a native English speaker, so I'm not qualified to do this)</li>
+                    <li>Slide creation</li>
+                    <li>Paper writing</li>
+                    <li>Any other ghostwriting</li>
+                </ul>
+            </p>
+            
+            <h2>Tutoring sessions</h2>  
+            <p>
+                <ul>
+                    <li>Email me a brief self-introduction, your concerns, desired results, and available consultation times. I'll reply with a Google Meet link.</li>
+                    <li>The first consultation session will be conducted online (15 minutes or less, subject to change based on situation)</li>
+                    <li>Subsequent sessions will be conducted online via Google Meet (30-45 minutes expected, subject to change based on situation)</li>
+                </ul>
+            </p>
+            
+            <h2>Privacy</h2>
+            <p>
+                All tutoring content and personal information are confidential. However, I cannot guarantee against accidental incidents (e.g., email hacking).
+                I may publish some content only with your consent for promotion.
+            </p>
+            
+            <h2>Email</h2>
+            <p>
+                <a href="mailto:tutor.write.tell@gmail.com" class="email">tutor.write.tell@gmail.com</a>  
+            </p>
+            
+            <h2>Available time</h2>
+            <p>
+                <ul>
+                    <li>Fri: 8:30-10:00 PM (KST)</li>
+                    <li>Sat: 9:30-11:00 AM (KST)</li>
+                    <li>Due to my full-time job, time slots are limited. Please understand. If there is high demand, I will try to increase availability.</li>
+                </ul>
+            </p>
+        </section>
+    </main>
+</body>
+</html> 
