@@ -45,6 +45,7 @@
             border-radius: 12px;
             box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
             border: 1px solid var(--border-color);
+            position: relative;
         }
         
         h1, h2 {
@@ -176,13 +177,40 @@
                 font-size: 1.5rem;
             }
         }
+
+        .nav-buttons {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-button {
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .nav-button:hover {
+            background-color: var(--hover-color);
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Technical Communication Tutoring</h1>
         <p>Communication skills that do not match the excellence of your technical skills may cause your research to be undervalued​​​​​​​​​​​​​​​</p>
-        <a href="../index.html" class="language-switch">About Me</a>
+        <div class="nav-buttons">
+            <a href="ko.html" class="nav-button">한국어</a>
+            <a href="../index.html" class="nav-button">About Me</a>
+        </div>
     </header>
 
     <main>
@@ -193,18 +221,18 @@
             </p>
 
             <p>
-                I've accumulated extensive writing and presentation experience in both academic and industrial settings, 
+                I have accumulated extensive writing and presentation experience in both academic and industrial settings, 
                 engaging with people from diverse backgrounds. 
-                I've helped resolve my friends' concerns by sharing the expertise I've gained through these experiences. 
+                I have helped my friends' concerns by sharing the expertise I have gained through these experiences. 
             </p>
             
             <p>
-                Fortunately, I've always received positive reviews, which has given me the confidence to cautiously begin offering this service, 
+                Fortunately, I have always received positive reviews, which gave me the confidence to begin offering this service, 
                 hoping that it might be helpful to others experiencing similar difficulties.
             </p>
             
             <p>
-                Currently, this is still in a preliminary testing phase, and I'm providing it at no cost for now, 
+                Currently, this is still in a preliminary testing phase, and I am providing it at no cost for now, 
                 as I also value the opportunity to learn about different research areas through our interactions.
                 I would deeply appreciate any honest feedback about the service that you might be willing to share.
             </p>
@@ -237,7 +265,6 @@
                     <li>Grammar correction (I'm not a native English speaker, so I'm not qualified to do this)</li>
                     <li>Slide creation</li>
                     <li>Paper writing</li>
-                    <li>Any other ghostwriting</li>
                 </ul>
             </p>
             
@@ -253,7 +280,10 @@
             <h2>Privacy</h2>
             <p>
                 All tutoring content and personal information are confidential. However, I cannot guarantee against accidental incidents (e.g., email hacking).
-                I may publish some content only with your consent for promotion.
+            </p>
+            
+            <p>
+                For promotion, I can ask your consent to publish some content. If you withdraw your consent, I will immediately remove the content.
             </p>
             
             <h2>Email</h2>
