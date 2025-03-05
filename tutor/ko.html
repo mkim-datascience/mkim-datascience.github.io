@@ -56,7 +56,7 @@
         h1 {
             color: var(--title-color);
             font-size: 2.5rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2.5rem;
             line-height: 1.3;
         }
         
@@ -162,19 +162,62 @@
         
         @media (max-width: 768px) {
             body {
-                padding: 1rem;
+                padding: 1.5rem 1rem;
+                font-size: 15px;
             }
-            
-            .container {
-                padding: 1.5rem;
+
+            header {
+                padding: 2rem 1.5rem;
+                margin-bottom: 2rem;
             }
-            
+
             h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
+                margin-bottom: 1rem;
             }
-            
+
+            header p {
+                font-size: 1.1rem;
+                line-height: 1.5;
+                margin-bottom: 1rem;
+            }
+
+            .nav-buttons {
+                top: 0.5rem;
+                right: 0.5rem;
+                gap: 0.3rem;
+            }
+
+            .nav-button {
+                padding: 0.4rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            .container p {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+
             h2 {
-                font-size: 1.5rem;
+                font-size: 1.4rem;
+                margin-bottom: 1rem;
+            }
+
+            ul {
+                padding-left: 1.2rem;
+            }
+
+            li {
+                font-size: 0.95rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .email {
+                font-size: 0.9rem;
             }
         }
 
@@ -201,12 +244,19 @@
             background-color: var(--hover-color);
             transform: translateY(-2px);
         }
+
+        .no-bullets, .no-bullets li {
+        list-style-type:none;
+
+        }
+
     </style>
 </head>
 <body>
     <header>
         <h1>Technical Communication Tutoring</h1>
-        <p>아무리 뛰어난 연구라도 그에 걸맞지 않는 커뮤니케이션 스킬로 전달된다면 저평가받을 수 있습니다</p>
+        <p>아무리 <b>중요한 연구</b>라도 그에 못 미치는 <b>커뮤니케이션 스킬</b>로 전달된다면 <b>저평가받을 수 있습니다.</b></p>
+        <p><b>챗GPT가 도와줄 수 없는</b> 부분을 도와드립니다.</p>
         <div class="nav-buttons">
             <a href="en.html" class="nav-button">English</a>
             <a href="../index.html" class="nav-button">튜터 소개</a>
@@ -223,8 +273,8 @@
 
             <p>
                 저는 한국에서 박사 학위를 취득한 후 바로 미국으로 건너가 학계와 산업체에서 다양한 배경의 전문가들과 협업하며 글쓰기와 발표 역량을 키웠습니다. 
-                그동안 축적한 노하우를 친구들과 공유하며 고민을 도와주었는데, 운 좋게도 항상 긍정적인 반응을 받아왔습니다.
-                또한, 이 과정에서 한국인들에게 연구의 우수성을 충분히 살리지 못하는 비효율적인 전달 패턴이 있다는 점도 알아차렸습니다.
+                그동안 축적한 노하우를 친구들과 공유하며 고민을 도와주었는데, 운 좋게도 항상 글쓰기나 발표 결과물이 크게 개선되었다는 후기를 받아왔습니다.
+                또한, 이 과정에서 과거의 저를 포함하여 한국인들에게 특유의 비효율적인 전달 패턴이 있다는 점도 알아차렸습니다.
             </p>
                 
             <p> 
@@ -239,6 +289,14 @@
         </section>
 
         <section class="container">
+            <h2>추천 대상</h2>
+            <ul>
+                <li>발표, 글쓰기, 또는 토론 결과가 살짝 아쉬운 전문가</li>
+                <li>관련 피드백을 충분히 받지 못하는 대학원생</li>
+                <li>영어 발표 경험이 없는 전문가 또는 학생</li>
+                <li>기술적 혁신을 효과적으로 전달하려는 스타트업 (발표, 펀딩 제안서)</li>
+            </ul>
+
             <h2>튜터링 경험 분야</h2>
             <p>
                 <ul>
@@ -270,7 +328,7 @@
             <h2>튜터링 세션</h2>  
             <p>
                 <ul>
-                    <li>간단한 자기소개, 고민사항, 원하는 결과, 가능한 상담 시간을 이메일로 보내주시면 Google Meet 링크를 보내드립니다.</li>
+                    <li>가능한 상담 시간을 이메일로 보내주시면 Google Meet 링크를 보내드립니다. 간단한 자기소개, 고민사항, 원하는 결과 등을 포함해주시면 좋습니다.</li>
                     <li>첫 상담 세션은 온라인으로 진행됩니다 (15분 이내, 상황에 따라 조정 가능)</li>
                     <li>이후 세션도 Google Meet을 통해 온라인으로 진행됩니다 (30-45분 예상, 상황에 따라 조정 가능)</li>
                 </ul>
