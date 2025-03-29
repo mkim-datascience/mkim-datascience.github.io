@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Communication Tutoring </title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Technical Communication Consulting | Research Writing & Presentation Coach</title>
+    <meta name="description" content="Expert technical communication consulting for STEM professionals. Specialized in research presentations, proposals, and academic job materials. Available in English and Korean.">
+    <meta name="keywords" content="technical communication, research presentation, academic writing, proposal writing, STEM communication, presentation coaching, academic job interview, research proposal, CV writing">
+    <meta name="author" content="Minjung Kim">
+    <meta property="og:title" content="Technical Communication Consulting | Research Writing & Presentation Coach">
+    <meta property="og:description" content="Expert technical communication consulting for STEM professionals. Specialized in research presentations, proposals, and academic job materials.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="robots" content="index, follow">
+    <link rel="alternate" hreflang="ko" href="ko.html">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'" crossorigin>
     <style>
         :root {
-            --primary-color: #1a365d;
-            --background-color: #f8f9fa;
-            --accent-color: #8b4513;
-            --text-color: #2c3e50;
-            --secondary-text: #4a5568;
-            --border-color: #e2e8f0;
+            --primary-color: #2d2d2d;
+            --background-color: #fff;
+            --accent-color: #4a5568;
+            --text-color: #444444;
+            --light-gray: #fafafa;
+            --border-color: #e5e5e5;
+            --link-color: #526488;
+            --secondary-text: #666666;
+            --title-color: #2c5282;
             --hover-color: #6b3410;
             --section-bg: #ffffff;
-            --title-color: #1a365d;
             --accent-light: #f5f5f5;
             --warm-bg: #fff8f3;
             --warm-border: #f0e6e0;
@@ -29,12 +40,12 @@
         }
         
         body {
-            font-family: "Merriweather", Georgia, "Times New Roman", serif;
-            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
             color: var(--text-color);
             background-color: var(--background-color);
-            margin: 0;
-            padding: 2rem;
+            padding: 5rem 2rem;
+            font-size: 16px;
         }
         
         header {
@@ -49,7 +60,7 @@
         }
         
         h1, h2 {
-            font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             font-weight: 600;
         }
         
@@ -61,10 +72,10 @@
         }
         
         header p {
-            font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             font-size: 1.2rem;
             color: var(--secondary-text);
-            max-width: 700px;
+            max-width: 680px;
             margin: 0 auto 1.5rem;
             line-height: 1.6;
         }
@@ -98,7 +109,7 @@
         }
         
         .container:first-of-type p {
-            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             font-size: 1.1rem;
             line-height: 1.8;
             color: var(--warm-text);
@@ -107,7 +118,7 @@
         }
         
         .container:first-of-type p:first-child {
-            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             font-size: 1.1rem;
             line-height: 1.8;
             color: var(--warm-text);
@@ -281,11 +292,43 @@
                 font-size: 1.05rem;
             }
         }
+
+        .disclaimer-section {
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+            padding-top: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .disclaimer-section h2 {
+            font-size: 1.2rem;
+            color: var(--secondary-text);
+            margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+            .disclaimer-section {
+                font-size: 0.85rem;
+            }
+            .disclaimer-section h2 {
+                font-size: 1.1rem;
+            }
+        }
+
+        .highlight-text {
+            background-color: #f8f4ff;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #e6e0f0;
+            margin: 1rem 0;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Technical Communication Tutoring</h1>
+        <h1>Technical Communication Consulting</h1>
         <p><b>Communication skills</b> that do not match the excellence of your technical skills may cause your <b>research to be undervalued.</b></p>
         <p>A service helping where <b>ChatGPT cannot</b>.</p>
         <div class="nav-buttons">
@@ -305,19 +348,27 @@
             <p>
                 I have accumulated extensive writing and presentation experience in both academic and industrial settings, 
                 engaging with people from diverse backgrounds. 
-                I have helped my friends' concerns by sharing the expertise I have gained through these experiences. 
+                I have helped my friends' concerns by sharing the expertise gained through these experiences and always received positive reviews. 
+               
             </p>
-            
-            <p>
-                Fortunately, I have always received positive reviews, which gave me the confidence to begin offering this service, 
+            <p>   
+                Such experiences gave me the confidence to begin offering this service, 
                 hoping that it might be helpful to others experiencing similar difficulties.
             </p>
-            
-            <p>
-                Currently, this is still in a preliminary testing phase, and I am providing it at no cost for now, 
-                as I also value the opportunity to learn about different research areas through our interactions.
-                I would deeply appreciate any honest feedback about the service that you might be willing to share.
-            </p>
+
+            <div class="highlight-text">
+                <b>Selected Cases That Led to Success:<br>
+                - Resume and cover letter editing and interview guide for a PhD holder's job application to a top tech company in the US<br>
+                - Research proposal editing for a job application to a university professor<br>
+                - Research presentation coaching for a job application to a postdoc in the US</b>
+            </div>
+
+            <div class="highlight-text">
+                <b>Consultant herself has various writing and speech experience that led to 
+                a Silicon Valley startup job, 
+                a postdoc job in the US, 
+                and fellowship/scholarship selections from two national laboratories in the US.</b>
+            </div>
             
         </section>
 
@@ -328,7 +379,9 @@
                 <li>Students do not receive enough feedback on their communication skills</li>
                 <li>Startups seeking assistance on communicating their innovations (presentations, proposals)</li>
             </ul>
-            <h2>Tutoring Experience Areas</h2>
+
+
+            <h2>Consulting Experience Areas</h2>
             <p>
                 <ul>
                     <li>Research presentations for academic job interview</li>
@@ -337,12 +390,19 @@
                     <li>Fellowship recommendation letter</li>
                 </ul>
             </p>
-            
+
+            <h2>Principles</h2>
+            <ul>
+                <li>Understand your goals and target audience</li>
+                <li>Organize core contents logically</li>
+                <li>Be concise yet complete</li>
+            </ul>
+
             <h2>Services Provided</h2>
             <p>
                 <ul>
-                    <li>Feedback-based tutoring with flexible format</li>
-                    <li>From brief writing guides to detailed presentation coaching across multiple sessions</li>
+                    <li>Feedback-based consulting with flexible format</li>
+                    <li>From brief writing guides to detailed presentation coaching and proofreading across multiple sessions</li>
                     <li>Communication in English and Korean</li>
                 </ul>
             </p>
@@ -352,42 +412,45 @@
                 <ul>
                     <li>Grammar correction (I'm not a native English speaker, so I'm not qualified to do this)</li>
                     <li>Slide creation</li>
-                    <li>Ghostwriting</li>
+                    <li>Writing everything from scratch</li>
                 </ul>
             </p>
 
             
-            <h2>Tutoring sessions</h2>  
+            <h2>Consulting sessions</h2>  
             <p>
                 <ul>
-                    <li>Email me available consultation times (you can also include a brief self-introduction, concerns, or desired results). I'll reply with a Google Meet link.</li>
-                    <li>The first consultation session will be conducted online (15 minutes or less, subject to change based on situation)</li>
-                    <li>Subsequent sessions will be conducted online via Google Meet (30-45 minutes expected, subject to change based on situation)</li>
+                    <li>Email me available times. I'll reply with a Google Meet link. Please feel free to include a brief self-introduction, concerns, or desired results.</li>
+                    <li>The first free consultation will be conducted as a short voice call (15 minutes or less, subject to change based on situation)</li>
+                    <li>Subsequent sessions will be conducted as a video call (30-45 minutes expected, subject to change based on situation)</li>
                 </ul>
-            </p>
-            
-            <h2>Privacy</h2>
-            <p>
-                All tutoring content and personal information are confidential. However, I cannot guarantee against accidental incidents (e.g., email hacking).
-            </p>
-            
-            <p>
-                For promotion, I can ask your consent to publish some content. If you withdraw your consent, I will immediately remove the content.
             </p>
             
             <h2>Email</h2>
             <p>
-                <a href="mailto:tutor.write.tell@gmail.com" class="email">tutor.write.tell@gmail.com</a>  
+             <a href="mailto:tech.tell.write@gmail.com" class="email">tech.tell.write@gmail.com</a>  
             </p>
-            
-            <h2>Available time</h2>
+
+            <h2>Available hours</h2>
             <p>
                 <ul>
-                    <li>Fri: 8:30-10:00 PM (KST)</li>
-                    <li>Sat: 9:30-11:00 AM (KST)</li>
-                    <li>Due to my full-time job, time slots are limited. Please understand. If there is high demand, I will try to increase availability.</li>
+                    <li>Mon, Wed, Fri 19:00-20:00 (KST)</li>
+                    <li>Sat 09:00-11:00 (KST)</li>
+                    <li>If above time slots are not suitable, please let me know.</li>
                 </ul>
             </p>
+
+            <div class="disclaimer-section">
+                <h2>Disclaimer</h2>
+                <p>
+                    This consulting service is provided on an "as is" basis without any warranties, expressed or implied. While I strive to provide valuable feedback and guidance, I cannot guarantee specific outcomes or results from using this service.
+                </p>
+                
+                <p>
+                    The service is based on my personal experience and knowledge. Any advice or suggestions provided are for reference only and should be evaluated independently. The final decisions and responsibility for implementation rest with you.
+                </p>
+
+            </div>
         </section>
     </main>
 </body>
