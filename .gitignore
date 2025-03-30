@@ -3,4 +3,4 @@ backup/*
 test/*
 *_test.*
 *_backup.*
-.DS_Store
+.DS_Storetest
